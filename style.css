@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: skyblue 70%;
+}
+.shrtdiv{
+    width: 100vw;
+    height: 30px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    margin-top: 10%;
+}
+
+.Qstmark{
+    width:120px;
+    height:120px;
+    background-color: white;
+    margin-top:-80px;
+    margin-left: 40%;
+    font-size: 90px;
+   text-align: center;
+   padding-top: 20px;
+}
+#input{
+    height:140px;
+    width:190px;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 55px;
+    text-align: center;
+}
+p{
+    font-size: 50px;
+    margin-left:60% ;
+    margin-top: -130px;
+}
+h2{
+    
+    margin-left:65% ;
+    margin-top: 30px;
+}
+.check{
+    height: 40px;
+    width:100px;
+    position: relative;
+    left:13%;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+.reset{
+    height: 40px;
+    width:100px; 
+    position: absolute;
+    top: 5%;
+    left:10%;
+    background-color: lightgrey;
+    border-radius: 5px;
+}

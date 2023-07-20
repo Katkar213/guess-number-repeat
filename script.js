@@ -7,6 +7,21 @@ let highscore=document.getElementsByClassName("highscore1")
 let Massage=document.getElementsByClassName("changetext")
 let Qst=document.getElementsByClassName("Qstmark")
 
+
+function reset(){
+  count=100;
+  Massage[0].innerText="Start guessing..."
+  chance[0].innerText=`${count}`;
+  inputValue.value=null;
+  body.style.backgroundColor="lightgrey";
+ let ran= random(100);
+ console.log(ran);
+
+}
+
+
+
+
 function random(n){
 return Math.floor((Math.random()*n))+1;
 }
@@ -44,10 +59,3 @@ if(count===0){
 }
 
 
-function reset(){
-    count=100;
-    Massage[0].innerText="Start guessing..."
-    chance[0].innerText=`${count}`;
-    inputValue.value=null;
-    body.style.backgroundColor="lightgrey"
-}

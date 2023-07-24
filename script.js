@@ -1,6 +1,6 @@
 
 let body=document.querySelector("body");
-let randomno=random(100);
+var randomno=random(100);
 let inputValue=document.getElementById("input");
 let chance=document.getElementsByClassName("chance1");
 let highscore=document.getElementsByClassName("highscore1")
@@ -14,12 +14,11 @@ function reset(){
   chance[0].innerText=`${count}`;
   inputValue.value=null;
   body.style.backgroundColor="lightgrey";
- let ran= random(100);
- console.log(ran);
+  randomno= random(100);
+//  console.log(ran);
+console.log(randomno);
 
 }
-
-
 
 
 function random(n){

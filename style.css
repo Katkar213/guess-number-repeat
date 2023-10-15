@@ -13,6 +13,9 @@ body{
     background-color: antiquewhite;
     margin-top: 10%;
 }
+#notice{
+    text-align: right;
+}
 
 .Qstmark{
     width:120px;

@@ -15,6 +15,7 @@ function reset(){
   inputValue.value=null;
   body.style.backgroundColor="lightgrey";
   randomno= random(100);
+  Qst[0].innerText="?";
 //  console.log(ran);
 console.log(randomno);
 
@@ -26,6 +27,7 @@ return Math.floor((Math.random()*n))+1;
 }
 console.log(randomno);
 count=100;
+
 function check(){
     let ans=parseInt(inputValue.value);
     console.log(parseInt(inputValue.value));
@@ -47,6 +49,7 @@ function check(){
 else{
     Massage[0].innerText="Hurray You Won!!.."
     count--;
+    Qst[0].innerText=randomno;
    chance[0].textContent=`${count}`;
    highscore[0].innerText=count;
    body.style.backgroundColor="green";
